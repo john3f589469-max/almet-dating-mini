@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #FF6B9D;
+  --color-primary-light: #FFB3D9;
+  --color-primary-lighter: #FFE4F0;
+  --color-background: #FFF5FA;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #FFE4F0 0%, #FFF5FA 50%, #FFE4F0 100%);
+  font-family: 'Inter', sans-serif;
+}
